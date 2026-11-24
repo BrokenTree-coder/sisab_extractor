@@ -1,0 +1,59 @@
+{
+  "portal": {
+    "url": "https://sisab.saude.gov.br/paginas/acessoRestrito/relatorio/federal/saude/RelSauProducao.xhtml",
+    "linha": "MUN.CO_MUNICIPIO_IBGE",
+    "coluna": "CID",
+    "unidade_geografica": "brasil"
+  },
+  "periodo": {
+    "inicio": "2013-04",
+    "fim": "2026-10"
+  },
+  "modulos": {
+    "sinan-sifg": {
+      "nome": "Sifilis em Gestante",
+      "codigos": [
+        { "sistema": "CID", "codigo": "O981" }
+      ]
+    },
+    "sinan-hepa": {
+      "nome": "Hepatites Virais",
+      "codigos": [
+        { "sistema": "CID", "codigo": "O984" }
+      ]
+    },
+    "sinan-sifc": {
+      "nome": "Sifilis Congenita",
+      "codigos": [
+        { "sistema": "CID", "codigo": "A50" },
+        { "sistema": "CID", "codigo": "A500" },
+        { "sistema": "CID", "codigo": "A501" },
+        { "sistema": "CID", "codigo": "A502" },
+        { "sistema": "CID", "codigo": "A503" },
+        { "sistema": "CID", "codigo": "A504" },
+        { "sistema": "CID", "codigo": "A505" },
+        { "sistema": "CID", "codigo": "A506" },
+        { "sistema": "CID", "codigo": "A507" },
+        { "sistema": "CID", "codigo": "A509" }
+      ]
+    },
+    "sinan-src": {
+      "nome": "Sindrome da Rubeola Congenita",
+      "codigos": [
+        { "sistema": "CID", "codigo": "P350" }
+      ]
+    },
+    "sinan-tetn": {
+      "nome": "Tetano Neonatal",
+      "codigos": [
+        { "sistema": "CID", "codigo": "A33" }
+      ]
+    },
+    "sinan-toxc": {
+      "nome": "Toxoplasmose Congenita",
+      "codigos": [
+        { "sistema": "CID", "codigo": "P371" }
+      ]
+    }
+  }
+}

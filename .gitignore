@@ -1,0 +1,28 @@
+# ambiente virtual e cache python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# banco de checkpoint sqlite e arquivos auxiliares do modo wal
+data/checkpoint.db
+data/checkpoint.db-wal
+data/checkpoint.db-shm
+
+# arquivos temporarios de download e dados brutos locais
+*.csv.tmp
+*.tmp
+data/raw/*
+!data/raw/.gitkeep
+
+# scripts temporarios de diagnostico e logs
+inspecionar_rede.py
+*.log
+
+# arquivos de editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
