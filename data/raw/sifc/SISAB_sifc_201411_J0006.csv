@@ -1,0 +1,34 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: NOV/2014.
+Tipo de Produção: Atendimento Individual.
+"CIAP/CID: CID (A50) Sífilis Congênita, CID (A500) Sífilis Congênita Precoce Sintomática, CID (A501) Sífilis Congênita Precoce, Forma Latente, CID (A502) Sífilis Congênita Precoce Não Especificada, CID (A503) Oculopatia Sifilítica Congênita Tardia, CID (A504) Neurossífilis Congênita Tardia [Neurossífilis Juvenil], CID (A505) Outras Formas Tardias E Sintomáticas Da Sífilis Congênita, CID (A506) Sífilis Congênita Tardia Latente, CID (A507) Sífilis Congênita Tardia Não Especificada, CID (A509) Sífilis Congênita Não Especificada."
+
+
+Uf;Ibge;Municipio;CID (A50) Sífilis Congênita;CID (A500) Sífilis Congênita P;CID (A501) Sífilis Congênita P;CID (A502) Sífilis Congênita P;CID (A503) Oculopatia Sifilíti;CID (A504) Neurossífilis Congê;CID (A505) Outras Formas Tardi;CID (A506) Sífilis Congênita T;CID (A507) Sífilis Congênita T;CID (A509) Sífilis Congênita N;
+RS;430920;GRAVATAÍ;0;0;0;0;0;0;0;0;0;1;
+AM;130014;APUÍ;0;1;0;0;0;0;0;0;0;0;
+AM;130260;MANAUS;0;5;0;0;0;0;0;0;0;1;
+MS;500720;RIO BRILHANTE;0;0;0;0;0;2;0;0;0;0;
+MG;315490;RIO CASCA;0;1;0;0;0;0;0;0;0;0;
+RN;240610;JUCURUTU;0;0;1;0;0;0;0;0;0;0;
+RN;240810;NATAL;0;1;0;0;0;0;0;0;0;0;
+PB;251270;REMÍGIO;3;0;0;0;0;0;0;0;0;0;
+MG;316080;SÃO BENTO ABADE;0;0;0;1;0;0;0;0;0;0;
+PR;410360;CAMBARÁ;0;0;0;0;2;0;0;0;0;0;
+SP;351550;FERNANDÓPOLIS;0;0;0;0;0;0;0;0;0;4;
+SP;350950;CAMPINAS;1;0;0;0;0;0;0;0;0;0;
+RS;430960;HORIZONTINA;0;0;0;1;0;0;0;0;0;0;
+RJ;330220;ITAPERUNA;15;0;0;0;0;0;0;0;0;0;
+BA;293300;VALENTE;1;0;0;0;0;0;0;0;0;0;
+SP;354980;SÃO JOSÉ DO RIO PRETO;0;0;0;0;0;0;0;0;0;1;
+SP;353190;MORRO AGUDO;0;1;0;0;0;0;0;0;0;0;
+PA;150060;ALTAMIRA;0;1;1;0;0;2;0;0;0;0;
+RJ;330452;RIO DAS OSTRAS;0;0;0;0;0;0;0;0;0;2;
+SP;354990;SÃO JOSÉ DOS CAMPOS;0;0;0;1;0;0;0;0;0;0;
+PR;411420;MANDAGUARI;0;1;0;0;0;0;0;0;0;0;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 18:17h

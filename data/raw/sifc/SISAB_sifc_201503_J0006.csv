@@ -1,0 +1,45 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: MAR/2015.
+Tipo de Produção: Atendimento Individual.
+"CIAP/CID: CID (A50) Sífilis Congênita, CID (A500) Sífilis Congênita Precoce Sintomática, CID (A501) Sífilis Congênita Precoce, Forma Latente, CID (A502) Sífilis Congênita Precoce Não Especificada, CID (A503) Oculopatia Sifilítica Congênita Tardia, CID (A504) Neurossífilis Congênita Tardia [Neurossífilis Juvenil], CID (A505) Outras Formas Tardias E Sintomáticas Da Sífilis Congênita, CID (A506) Sífilis Congênita Tardia Latente, CID (A507) Sífilis Congênita Tardia Não Especificada, CID (A509) Sífilis Congênita Não Especificada."
+
+
+Uf;Ibge;Municipio;CID (A50) Sífilis Congênita;CID (A500) Sífilis Congênita P;CID (A501) Sífilis Congênita P;CID (A502) Sífilis Congênita P;CID (A503) Oculopatia Sifilíti;CID (A504) Neurossífilis Congê;CID (A505) Outras Formas Tardi;CID (A506) Sífilis Congênita T;CID (A507) Sífilis Congênita T;CID (A509) Sífilis Congênita N;
+MA;210690;MONÇÃO;2;0;0;0;0;0;0;0;0;0;
+MS;500260;CAMAPUÃ;0;0;0;1;0;0;0;0;0;0;
+PB;251640;TACIMA;1;0;0;0;0;0;0;0;0;0;
+MA;210860;PINHEIRO;2;0;0;0;0;0;0;0;0;0;
+SP;354980;SÃO JOSÉ DO RIO PRETO;0;0;0;0;0;0;0;0;0;1;
+GO;521990;SÃO FRANCISCO DE GOIÁS;0;0;0;0;0;0;0;0;0;1;
+MS;500090;ANTÔNIO JOÃO;0;0;1;0;0;0;0;0;0;0;
+MG;312770;GOVERNADOR VALADARES;1;0;0;0;0;0;0;0;0;0;
+MS;500770;SETE QUEDAS;0;0;0;1;0;0;0;0;0;0;
+MT;510680;PORTO DOS GAÚCHOS;1;0;0;0;0;0;0;0;0;0;
+PB;250730;JACARAÚ;0;0;0;0;0;0;0;0;0;1;
+SP;354990;SÃO JOSÉ DOS CAMPOS;0;0;1;0;0;0;0;0;0;0;
+SC;420450;CORUPÁ;4;0;0;0;0;0;0;0;0;0;
+AM;130260;MANAUS;0;5;0;0;0;1;0;0;0;2;
+PI;220510;ITAUEIRA;1;0;0;0;0;0;0;0;0;0;
+RN;240810;NATAL;1;0;0;0;0;0;0;0;0;0;
+MS;500270;CAMPO GRANDE;0;2;0;0;0;0;0;0;0;1;
+MA;210140;BALSAS;1;0;0;0;0;0;0;0;0;0;
+PB;251270;REMÍGIO;1;0;0;0;0;0;0;0;0;0;
+PR;411370;LONDRINA;4;0;0;0;0;0;0;0;0;0;
+MG;314505;NOVA PORTEIRINHA;1;0;0;0;0;0;0;0;0;0;
+RS;430510;CAXIAS DO SUL;1;0;0;0;0;0;0;0;0;0;
+SP;351550;FERNANDÓPOLIS;0;0;0;0;0;0;0;0;0;1;
+MA;210960;ROSÁRIO;1;0;0;0;0;0;0;0;0;0;
+SP;354050;PORANGABA;0;0;0;0;0;0;0;1;0;0;
+PA;150345;IPIXUNA DO PARÁ;1;0;0;0;0;0;0;0;0;0;
+MS;500025;ALCINÓPOLIS;1;0;0;0;0;0;0;0;0;0;
+SP;350950;CAMPINAS;6;0;0;0;0;0;0;0;0;0;
+TO;170950;GURUPI;1;0;0;0;0;0;0;0;0;0;
+SP;350600;BAURU;3;0;0;0;0;0;0;0;0;0;
+PB;251140;PICUÍ;1;0;0;0;0;0;0;0;0;0;
+RN;240830;NOVA CRUZ;0;0;0;0;0;0;0;0;0;1;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 18:17h

@@ -1,0 +1,53 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: MAI/2015.
+Tipo de Produção: Atendimento Individual.
+"CIAP/CID: CID (A50) Sífilis Congênita, CID (A500) Sífilis Congênita Precoce Sintomática, CID (A501) Sífilis Congênita Precoce, Forma Latente, CID (A502) Sífilis Congênita Precoce Não Especificada, CID (A503) Oculopatia Sifilítica Congênita Tardia, CID (A504) Neurossífilis Congênita Tardia [Neurossífilis Juvenil], CID (A505) Outras Formas Tardias E Sintomáticas Da Sífilis Congênita, CID (A506) Sífilis Congênita Tardia Latente, CID (A507) Sífilis Congênita Tardia Não Especificada, CID (A509) Sífilis Congênita Não Especificada."
+
+
+Uf;Ibge;Municipio;CID (A50) Sífilis Congênita;CID (A500) Sífilis Congênita P;CID (A501) Sífilis Congênita P;CID (A502) Sífilis Congênita P;CID (A503) Oculopatia Sifilíti;CID (A504) Neurossífilis Congê;CID (A505) Outras Formas Tardi;CID (A506) Sífilis Congênita T;CID (A507) Sífilis Congênita T;CID (A509) Sífilis Congênita N;
+PI;221100;TERESINA;0;0;0;1;0;0;0;0;0;0;
+SP;354540;SALTO GRANDE;2;0;0;0;0;0;0;0;0;0;
+MS;500220;BONITO;0;0;0;0;0;0;0;0;0;1;
+MA;210860;PINHEIRO;5;0;0;0;0;0;0;0;0;0;
+AL;270710;PIRANHAS;1;0;0;0;0;0;0;0;0;0;
+PA;150060;ALTAMIRA;0;1;0;0;0;0;0;0;0;0;
+SP;352440;JACAREÍ;0;0;0;0;0;0;0;0;0;1;
+MA;210170;BARREIRINHAS;0;0;0;1;0;0;0;0;0;0;
+PE;261360;SÃO JOSÉ DO EGITO;1;0;0;0;0;0;0;0;0;0;
+MS;500090;ANTÔNIO JOÃO;0;0;0;0;0;0;0;0;0;1;
+MG;312770;GOVERNADOR VALADARES;1;0;0;0;0;0;0;0;0;0;
+PE;261140;PRIMAVERA;1;0;0;0;0;0;0;0;0;0;
+MA;211130;SÃO LUÍS;1;0;0;0;0;0;0;0;0;0;
+AM;130260;MANAUS;0;2;2;0;0;0;0;0;0;1;
+SP;351380;DIADEMA;0;0;0;0;0;0;0;0;0;1;
+PB;250480;COREMAS;2;0;0;0;0;0;0;0;0;0;
+BA;291920;LAURO DE FREITAS;1;0;0;0;0;0;0;1;4;0;
+PB;251270;REMÍGIO;3;0;0;0;0;0;0;0;0;0;
+SE;280440;NEÓPOLIS;0;0;0;1;0;0;0;0;0;0;
+GO;520017;ÁGUA FRIA DE GOIÁS;1;0;0;0;0;0;0;0;0;0;
+PB;251250;QUEIMADAS;2;0;0;0;0;0;0;0;0;0;
+MG;310400;ARAXÁ;0;0;0;0;0;0;0;0;0;1;
+CE;230440;FORTALEZA;0;0;0;1;0;0;0;0;0;0;
+RJ;330360;PARACAMBI;1;0;0;0;0;0;0;0;0;0;
+ES;320190;DOMINGOS MARTINS;0;0;0;0;0;0;0;0;0;1;
+SP;350950;CAMPINAS;6;0;0;0;0;0;0;0;0;0;
+RS;431560;RIO GRANDE;1;0;0;0;0;0;0;0;0;0;
+MG;316960;TUPACIGUARA;0;0;0;0;0;0;0;0;0;4;
+PE;261100;PETROLÂNDIA;0;0;0;0;0;0;0;0;0;1;
+SP;353390;OLÍMPIA;0;0;0;0;0;0;0;0;0;1;
+SP;350600;BAURU;1;0;0;0;0;0;0;0;0;0;
+SE;280030;ARACAJU;0;0;0;1;0;0;0;0;0;0;
+MS;500620;NOVA ANDRADINA;1;0;0;0;0;0;0;0;0;0;
+SC;420320;CAMBORIÚ;1;0;0;0;0;0;0;0;0;0;
+RN;240930;PATU;0;0;0;0;0;0;0;0;0;1;
+RS;431490;PORTO ALEGRE;4;0;0;0;0;0;0;0;0;0;
+TO;171620;PARANÃ;1;0;0;0;0;0;0;0;0;0;
+PB;250730;JACARAÚ;1;0;0;0;0;0;0;0;0;0;
+AL;270440;MAJOR ISIDORO;0;0;0;0;0;0;0;0;0;1;
+AM;130290;MAUÉS;1;0;0;0;0;0;0;0;0;0;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 18:18h

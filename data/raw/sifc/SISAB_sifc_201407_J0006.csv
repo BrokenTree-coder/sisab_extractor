@@ -1,0 +1,45 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: JUL/2014.
+Tipo de Produção: Atendimento Individual.
+"CIAP/CID: CID (A50) Sífilis Congênita, CID (A500) Sífilis Congênita Precoce Sintomática, CID (A501) Sífilis Congênita Precoce, Forma Latente, CID (A502) Sífilis Congênita Precoce Não Especificada, CID (A503) Oculopatia Sifilítica Congênita Tardia, CID (A504) Neurossífilis Congênita Tardia [Neurossífilis Juvenil], CID (A505) Outras Formas Tardias E Sintomáticas Da Sífilis Congênita, CID (A506) Sífilis Congênita Tardia Latente, CID (A507) Sífilis Congênita Tardia Não Especificada, CID (A509) Sífilis Congênita Não Especificada."
+
+
+Uf;Ibge;Municipio;CID (A50) Sífilis Congênita;CID (A500) Sífilis Congênita P;CID (A501) Sífilis Congênita P;CID (A502) Sífilis Congênita P;CID (A503) Oculopatia Sifilíti;CID (A504) Neurossífilis Congê;CID (A505) Outras Formas Tardi;CID (A506) Sífilis Congênita T;CID (A507) Sífilis Congênita T;CID (A509) Sífilis Congênita N;
+AC;120040;RIO BRANCO;1;0;0;0;0;0;0;0;0;0;
+PB;250550;VISTA SERRANA;0;2;0;0;0;0;0;0;0;0;
+PI;221100;TERESINA;0;2;0;0;0;0;0;0;0;0;
+PA;150060;ALTAMIRA;0;2;0;0;2;0;0;0;0;0;
+SC;420830;ITAPEMA;0;0;0;1;0;0;0;0;0;0;
+MA;210020;ALCÂNTARA;0;0;0;0;1;0;0;0;0;0;
+RS;431406;PASSA SETE;0;1;0;0;0;0;0;0;0;0;
+PB;251390;SÃO BENTO;0;0;0;0;2;0;0;0;0;0;
+PA;150293;DOM ELISEU;0;0;0;0;0;1;0;0;0;0;
+MG;314460;NEPOMUCENO;0;2;0;0;0;0;0;0;0;0;
+BA;290900;CORDEIROS;0;1;0;0;0;0;0;0;0;0;
+RS;432210;TUCUNDUVA;0;0;0;0;0;0;0;0;0;2;
+PB;250050;ALAGOINHA;0;1;0;1;0;0;0;0;0;0;
+ES;320501;SOORETAMA;0;0;0;0;4;0;0;0;0;0;
+AM;130260;MANAUS;0;0;0;0;0;0;0;0;0;1;
+ES;320500;SERRA;0;1;0;0;0;0;0;0;0;0;
+RN;240020;AÇU;0;1;0;0;0;0;0;0;0;0;
+PB;250480;COREMAS;0;0;0;0;0;0;0;0;0;1;
+MS;500270;CAMPO GRANDE;0;0;0;1;0;0;0;0;0;0;
+PE;260710;INGAZEIRA;0;0;0;0;1;0;0;0;0;0;
+PB;250780;JUNCO DO SERIDÓ;0;1;0;0;0;0;0;0;0;0;
+BA;291465;ITABELA;0;0;0;1;0;0;0;0;0;0;
+PB;251690;UIRAÚNA;0;0;0;0;0;0;0;0;0;1;
+MS;500769;SÃO GABRIEL DO OESTE;0;2;0;0;0;0;0;0;0;0;
+RS;430210;BENTO GONÇALVES;0;0;0;0;0;0;0;0;0;1;
+PA;150240;CASTANHAL;0;1;0;0;0;0;0;1;0;0;
+RJ;330330;NITERÓI;1;0;0;0;0;0;0;0;0;0;
+RN;241030;SERRA CAIADA;0;1;0;0;0;0;0;0;0;0;
+SP;352900;MARÍLIA;0;0;2;0;0;0;0;0;0;1;
+SP;350620;BENTO DE ABREU;0;0;0;1;0;0;0;0;0;0;
+SE;280510;PEDRINHAS;0;1;0;0;0;0;0;0;0;0;
+SP;350600;BAURU;0;0;0;0;0;0;0;0;0;2;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 18:16h

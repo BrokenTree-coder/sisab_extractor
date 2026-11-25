@@ -1,0 +1,40 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: JAN/2015.
+Tipo de Produção: Atendimento Individual.
+"CIAP/CID: CID (A50) Sífilis Congênita, CID (A500) Sífilis Congênita Precoce Sintomática, CID (A501) Sífilis Congênita Precoce, Forma Latente, CID (A502) Sífilis Congênita Precoce Não Especificada, CID (A503) Oculopatia Sifilítica Congênita Tardia, CID (A504) Neurossífilis Congênita Tardia [Neurossífilis Juvenil], CID (A505) Outras Formas Tardias E Sintomáticas Da Sífilis Congênita, CID (A506) Sífilis Congênita Tardia Latente, CID (A507) Sífilis Congênita Tardia Não Especificada, CID (A509) Sífilis Congênita Não Especificada."
+
+
+Uf;Ibge;Municipio;CID (A50) Sífilis Congênita;CID (A500) Sífilis Congênita P;CID (A501) Sífilis Congênita P;CID (A502) Sífilis Congênita P;CID (A503) Oculopatia Sifilíti;CID (A504) Neurossífilis Congê;CID (A505) Outras Formas Tardi;CID (A506) Sífilis Congênita T;CID (A507) Sífilis Congênita T;CID (A509) Sífilis Congênita N;
+MA;210170;BARREIRINHAS;0;0;0;0;0;0;0;0;0;1;
+PE;261360;SÃO JOSÉ DO EGITO;1;0;0;0;0;0;0;0;0;0;
+RN;241475;VENHA-VER;0;0;0;0;1;0;0;0;0;0;
+MG;312770;GOVERNADOR VALADARES;14;0;0;0;0;0;0;0;0;0;
+PB;250730;JACARAÚ;1;0;0;0;0;0;0;0;0;0;
+MS;500720;RIO BRILHANTE;1;0;0;0;0;0;0;0;0;0;
+SP;351380;DIADEMA;0;1;0;0;0;0;0;0;0;0;
+PE;260120;ARCOVERDE;1;0;0;0;0;0;0;0;0;0;
+MS;500270;CAMPO GRANDE;3;0;0;0;0;0;0;0;0;0;
+MS;500470;IVINHEMA;1;0;0;0;0;0;0;0;0;0;
+PB;251270;REMÍGIO;2;0;0;0;0;0;0;0;0;0;
+MG;312965;IBIRACATU;0;2;0;0;0;0;0;0;0;0;
+MA;210945;RAPOSA;1;0;0;0;0;0;0;0;0;0;
+PR;411370;LONDRINA;1;0;0;0;0;0;0;0;0;0;
+PB;250780;JUNCO DO SERIDÓ;0;0;0;1;0;0;0;0;0;0;
+RS;430510;CAXIAS DO SUL;2;0;0;0;0;0;0;0;0;1;
+GO;520017;ÁGUA FRIA DE GOIÁS;0;1;0;0;0;0;0;0;0;0;
+MA;210960;ROSÁRIO;0;0;0;0;0;0;0;0;0;1;
+ES;320320;LINHARES;0;0;0;1;0;0;0;0;0;0;
+BA;292620;RIACHÃO DAS NEVES;1;0;0;0;0;0;0;0;0;0;
+SP;350950;CAMPINAS;0;0;0;0;0;0;0;0;0;1;
+SP;350600;BAURU;1;0;0;0;0;0;1;0;0;0;
+RN;240830;NOVA CRUZ;0;0;0;0;0;0;0;0;0;1;
+SP;353420;ORINDIÚVA;0;0;0;0;0;0;0;0;0;1;
+RJ;330220;ITAPERUNA;0;0;0;0;0;1;0;0;0;0;
+SP;354980;SÃO JOSÉ DO RIO PRETO;0;0;0;0;0;0;0;0;0;1;
+MG;310280;ANDRELÂNDIA;0;2;0;0;0;0;0;0;0;0;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 18:17h

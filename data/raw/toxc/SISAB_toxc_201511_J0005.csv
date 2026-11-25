@@ -1,0 +1,36 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: NOV/2015.
+Tipo de Produção: Atendimento Individual.
+CIAP/CID: CID (P371) Toxoplasmose Congênita.
+
+
+Uf;Ibge;Municipio;CID (P371) Toxoplasmose Congên;
+MS;500390;FIGUEIRÃO;1;
+MG;314390;MURIAÉ;1;
+MG;312010;COUTO DE MAGALHÃES DE MINAS;1;
+MG;310620;BELO HORIZONTE;4;
+RJ;330455;RIO DE JANEIRO;9;
+SC;420540;FLORIANÓPOLIS;1;
+GO;520995;INDIARA;1;
+SP;350390;ARUJÁ;1;
+RS;432240;URUGUAIANA;2;
+PR;410860;GOIOERÊ;1;
+ES;320530;VITÓRIA;1;
+TO;171570;PALMEIRANTE;2;
+SC;420910;JOINVILLE;2;
+MG;312760;GOUVEIA;1;
+SP;350600;BAURU;1;
+RS;431140;LAJEADO;1;
+RS;431490;PORTO ALEGRE;1;
+PR;410690;CURITIBA;2;
+MG;314460;NEPOMUCENO;1;
+SP;354990;SÃO JOSÉ DOS CAMPOS;2;
+PR;412750;TIBAGI;1;
+RS;430040;ALEGRETE;1;
+PR;411480;MARIALVA;1;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 16:13h

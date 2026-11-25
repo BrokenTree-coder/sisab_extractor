@@ -1,0 +1,47 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: SET/2014.
+Tipo de Produção: Atendimento Individual.
+"CIAP/CID: CID (A50) Sífilis Congênita, CID (A500) Sífilis Congênita Precoce Sintomática, CID (A501) Sífilis Congênita Precoce, Forma Latente, CID (A502) Sífilis Congênita Precoce Não Especificada, CID (A503) Oculopatia Sifilítica Congênita Tardia, CID (A504) Neurossífilis Congênita Tardia [Neurossífilis Juvenil], CID (A505) Outras Formas Tardias E Sintomáticas Da Sífilis Congênita, CID (A506) Sífilis Congênita Tardia Latente, CID (A507) Sífilis Congênita Tardia Não Especificada, CID (A509) Sífilis Congênita Não Especificada."
+
+
+Uf;Ibge;Municipio;CID (A50) Sífilis Congênita;CID (A500) Sífilis Congênita P;CID (A501) Sífilis Congênita P;CID (A502) Sífilis Congênita P;CID (A503) Oculopatia Sifilíti;CID (A504) Neurossífilis Congê;CID (A505) Outras Formas Tardi;CID (A506) Sífilis Congênita T;CID (A507) Sífilis Congênita T;CID (A509) Sífilis Congênita N;
+PR;410550;CIANORTE;0;0;0;0;0;0;1;0;0;0;
+MS;500090;ANTÔNIO JOÃO;0;0;0;1;0;0;0;0;0;0;
+RS;431406;PASSA SETE;0;1;0;0;0;0;0;0;0;0;
+SE;280300;ITABAIANINHA;0;0;0;0;0;0;0;0;0;1;
+RJ;330140;CONCEIÇÃO DE MACABU;0;0;0;0;0;0;0;0;0;1;
+PR;412640;SERTANEJA;0;1;0;0;0;0;0;0;0;0;
+BA;292510;POÇÕES;0;0;0;0;0;0;0;0;0;2;
+GO;520400;CABECEIRAS;0;0;0;0;0;0;0;2;0;0;
+TO;171850;RECURSOLÂNDIA;0;0;0;0;0;0;0;0;0;9;
+AL;270070;BATALHA;0;0;0;0;0;0;0;0;0;4;
+AM;130260;MANAUS;0;1;0;1;0;0;0;0;0;1;
+MG;315490;RIO CASCA;0;3;0;0;0;0;0;0;0;0;
+SP;351380;DIADEMA;0;0;0;0;0;0;0;0;0;2;
+PE;261460;TABIRA;0;0;0;0;0;0;0;0;0;1;
+MS;500270;CAMPO GRANDE;0;0;0;0;0;0;2;0;0;0;
+MG;312965;IBIRACATU;0;2;0;0;0;0;0;0;0;0;
+SP;354080;POTIRENDABA;0;1;0;0;0;0;0;0;0;0;
+MG;314505;NOVA PORTEIRINHA;0;2;0;0;0;2;0;2;0;2;
+PB;250630;GUARABIRA;0;0;1;0;0;0;0;0;0;0;
+RS;430510;CAXIAS DO SUL;0;39;0;0;0;0;0;0;0;0;
+SP;351550;FERNANDÓPOLIS;0;0;0;2;0;0;0;0;0;0;
+SP;352900;MARÍLIA;0;1;0;0;0;0;0;0;0;0;
+CE;230060;ALTANEIRA;0;1;0;0;0;0;0;0;0;0;
+MG;317020;UBERLÂNDIA;0;1;0;0;0;0;0;0;0;0;
+PB;251190;PITIMBU;0;1;0;0;0;0;0;0;0;0;
+PA;150503;NOVO PROGRESSO;0;1;0;0;0;0;0;0;0;1;
+SP;350600;BAURU;0;0;0;3;0;0;1;0;0;1;
+MA;210040;ALTAMIRA DO MARANHÃO;0;0;0;0;0;0;0;0;0;1;
+RN;240830;NOVA CRUZ;15;0;0;0;0;0;0;0;0;0;
+SC;420320;CAMBORIÚ;0;0;0;0;0;2;0;0;0;0;
+RJ;330220;ITAPERUNA;1;0;0;0;0;0;0;0;0;0;
+RS;430040;ALEGRETE;0;0;0;0;0;1;0;0;0;0;
+SP;354980;SÃO JOSÉ DO RIO PRETO;0;0;0;0;0;0;0;0;0;1;
+PA;150060;ALTAMIRA;0;0;0;0;0;0;0;4;0;0;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 18:17h

@@ -11,11 +11,10 @@ data/checkpoint.db
 data/checkpoint.db-wal
 data/checkpoint.db-shm
 
-# arquivos temporarios de download e dados brutos locais
+# arquivos temporarios de download 
 *.csv.tmp
 *.tmp
-data/raw/*
-!data/raw/.gitkeep
+
 
 # scripts temporarios de diagnostico e logs
 inspecionar_rede.py

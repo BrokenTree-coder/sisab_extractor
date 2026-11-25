@@ -1,0 +1,22 @@
+Secretaria de Atenção Primária à Saúde - SAPS/MS 
+Dados sujeitos à alteração 
+---Descrição dos Filtros Utilizados---
+Competência: ABR/2017.
+Tipo de Produção: Atendimento Individual.
+CIAP/CID: CID (P350) Síndrome Da Rubéola Congênita.
+
+
+Uf;Ibge;Municipio;CID (P350) Síndrome Da Rubéola;
+RS;431490;PORTO ALEGRE;1;
+PR;410690;CURITIBA;1;
+PR;410180;ARAUCÁRIA;1;
+MG;310620;BELO HORIZONTE;1;
+MG;313670;JUIZ DE FORA;1;
+SP;351880;GUARULHOS;1;
+RJ;330455;RIO DE JANEIRO;5;
+MG;311230;CAPELINHA;2;
+PA;150140;BELÉM;2;
+
+
+Fonte: Sistema de Informação em Saúde para a Atenção Básica - SISAB;
+Dado gerado em: 25 de Novembro de 2026 - 14:00h
