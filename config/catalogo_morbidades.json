@@ -10,19 +10,19 @@
     "fim": "2026-10"
   },
   "modulos": {
-    "sinan-sifg": {
+    "sifg": {
       "nome": "Sifilis em Gestante",
       "codigos": [
         { "sistema": "CID", "codigo": "O981" }
       ]
     },
-    "sinan-hepa": {
+    "hepa": {
       "nome": "Hepatites Virais",
       "codigos": [
         { "sistema": "CID", "codigo": "O984" }
       ]
     },
-    "sinan-sifc": {
+    "sifc": {
       "nome": "Sifilis Congenita",
       "codigos": [
         { "sistema": "CID", "codigo": "A50" },
@@ -37,19 +37,19 @@
         { "sistema": "CID", "codigo": "A509" }
       ]
     },
-    "sinan-src": {
+    "src": {
       "nome": "Sindrome da Rubeola Congenita",
       "codigos": [
         { "sistema": "CID", "codigo": "P350" }
       ]
     },
-    "sinan-tetn": {
+    "tetn": {
       "nome": "Tetano Neonatal",
       "codigos": [
         { "sistema": "CID", "codigo": "A33" }
       ]
     },
-    "sinan-toxc": {
+    "toxc": {
       "nome": "Toxoplasmose Congenita",
       "codigos": [
         { "sistema": "CID", "codigo": "P371" }

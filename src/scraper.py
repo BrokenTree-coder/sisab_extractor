@@ -181,6 +181,7 @@ class SisabScraper:
         page: Page,
         modulo: str,
         competencia_ym: str,
+        codigo_j: str,
         codigos: list[dict[str, str]],
     ) -> str:
         rotulo_sisab = ym_para_sisab(competencia_ym)
@@ -188,8 +189,10 @@ class SisabScraper:
 
         pasta_modulo = self.pasta_raw / modulo
         pasta_modulo.mkdir(parents=True, exist_ok=True)
-        arquivo_final = pasta_modulo / f"{modulo}_{competencia_ym}.csv"
-        arquivo_tmp = pasta_modulo / f"{modulo}_{competencia_ym}.csv.tmp"
+
+        comp_compacta = competencia_ym.replace("-", "")
+        arquivo_final = pasta_modulo / f"SISAB_{modulo}_{comp_compacta}_{codigo_j}.csv"
+        arquivo_tmp = pasta_modulo / f"SISAB_{modulo}_{comp_compacta}_{codigo_j}.csv.tmp"
 
         if arquivo_tmp.exists():
             arquivo_tmp.unlink()
@@ -267,7 +270,7 @@ class SisabScraper:
             data_geracao=auditoria.data_geracao,
         )
         return f"downloaded ({auditoria.total_registros} registros)"
-    
+
     def executar_modulo(
         self,
         modulo: str,
@@ -283,9 +286,12 @@ class SisabScraper:
             print(f"[{modulo}] nenhuma competencia pendente.")
             return
 
+        # obtem ou cria um unico codigo sequencial de lote para todas as competencias do modulo
+        codigo_j = self.checkpoint.obter_ou_criar_lote(modulo)
+
         print(
             f"[{modulo}] iniciando extracao de {len(pendentes)} competencia(s) "
-            f"(total na janela: {len(competencias)})."
+            f"(lote {codigo_j}, total na janela: {len(competencias)})."
         )
 
         with sync_playwright() as p:
@@ -323,8 +329,11 @@ class SisabScraper:
                                 sessao_pronta = True
                                 requisicoes_na_sessao = 0
 
+                            assert page is not None
                             inicio = time.perf_counter()
-                            desfecho = self._tentar_extrair_competencia(page, modulo, comp, codigos)
+                            desfecho = self._tentar_extrair_competencia(
+                                page, modulo, comp, codigo_j, codigos
+                            )
                             duracao = time.perf_counter() - inicio
 
                             requisicoes_na_sessao += 1

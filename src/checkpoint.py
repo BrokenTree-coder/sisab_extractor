@@ -132,6 +132,38 @@ class CheckpointStore:
                 (modulo, competencia, mensagem[:500], self._agora_iso()),
             )
 
+    def obter_ou_criar_lote(self, modulo: str) -> str:
+        # reaproveita o codigo Jnnnn ja aberto para o modulo, ou cria o proximo da sequencia global
+        with self._conectar() as conn:
+            conn.execute(
+                """
+                CREATE TABLE IF NOT EXISTS lotes_consulta (
+                    seq INTEGER PRIMARY KEY AUTOINCREMENT,
+                    codigo_j TEXT NOT NULL UNIQUE,
+                    modulo TEXT NOT NULL,
+                    criado_em TEXT NOT NULL
+                );
+                """
+            )
+            existente = conn.execute(
+                "SELECT codigo_j FROM lotes_consulta WHERE modulo = ? ORDER BY seq DESC LIMIT 1",
+                (modulo,),
+            ).fetchone()
+            if existente:
+                return existente["codigo_j"]
+
+            ultimo = conn.execute(
+                "SELECT seq FROM lotes_consulta ORDER BY seq DESC LIMIT 1"
+            ).fetchone()
+            prox_seq = (ultimo["seq"] + 1) if ultimo else 1
+            codigo_j = f"J{prox_seq:04d}"
+
+            conn.execute(
+                "INSERT INTO lotes_consulta (codigo_j, modulo, criado_em) VALUES (?, ?, ?)",
+                (codigo_j, modulo, self._agora_iso()),
+            )
+            return codigo_j
+
     def resumo(self, modulo: str | None = None) -> list[dict]:
         query = """
             SELECT modulo, status, COUNT(*) AS qtd
