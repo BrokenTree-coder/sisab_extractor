@@ -9,7 +9,7 @@ from src.scraper import ConfigExecucao, SisabScraper
 BASE_DIR = Path(__file__).resolve().parent
 CATALOGO_PATH = BASE_DIR / "config" / "catalogo_morbidades.json"
 CHECKPOINT_PATH = BASE_DIR / "data" / "checkpoint.db"
-RAW_DIR = BASE_DIR / "data" / "raw"
+BRONZE_DIR = BASE_DIR / "data" / "bronze"
 
 
 def gerar_competencias(inicio_ym: str, fim_ym: str) -> list[str]:
@@ -104,7 +104,7 @@ def main() -> None:
     )
     scraper = SisabScraper(
         portal_cfg=catalogo["portal"],
-        pasta_raw=RAW_DIR,
+        pasta_bronze=BRONZE_DIR,
         checkpoint=checkpoint,
         exec_cfg=exec_cfg,
     )

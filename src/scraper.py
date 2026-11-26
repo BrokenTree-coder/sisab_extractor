@@ -41,12 +41,12 @@ class SisabScraper:
     def __init__(
         self,
         portal_cfg: dict,
-        pasta_raw: Path,
+        pasta_bronze: Path,
         checkpoint: CheckpointStore,
         exec_cfg: ConfigExecucao | None = None,
     ):
         self.portal = portal_cfg
-        self.pasta_raw = pasta_raw
+        self.pasta_bronze = pasta_bronze
         self.checkpoint = checkpoint
         self.cfg = exec_cfg or ConfigExecucao()
 
@@ -187,7 +187,7 @@ class SisabScraper:
         rotulo_sisab = ym_para_sisab(competencia_ym)
         self._selecionar_competencia_unica(page, rotulo_sisab)
 
-        pasta_modulo = self.pasta_raw / modulo
+        pasta_modulo = self.pasta_bronze / modulo
         pasta_modulo.mkdir(parents=True, exist_ok=True)
 
         comp_compacta = competencia_ym.replace("-", "")
