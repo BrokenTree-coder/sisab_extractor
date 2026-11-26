@@ -1,0 +1,286 @@
+{
+  "etapa": "E4_validar",
+  "gerado_em_utc": "2026-11-26T17:48:57.188683+00:00",
+  "status": "aprovado",
+  "validacoes": {
+    "V1_registro_completo": {
+      "status": "aprovado",
+      "arquivos_bronze_total": 818,
+      "arquivos_vinculados": 818,
+      "pct_arquivos_no_registro": 100.0,
+      "lotes_registrados_total": 6,
+      "lotes_com_arquivo": 6,
+      "pct_registros_com_arquivo": 100.0,
+      "arquivos_sem_id": [],
+      "arquivos_orfaos": [],
+      "registros_sem_arquivo": []
+    },
+    "V2_soma_territorial": {
+      "status": "aprovado",
+      "totais_por_tema": {
+        "hepa": {
+          "bronze": 1295,
+          "silver_brasil": 1295,
+          "gold_uf_somado": 1295
+        },
+        "sifc": {
+          "bronze": 117815,
+          "silver_brasil": 117815,
+          "gold_uf_somado": 117815
+        },
+        "sifg": {
+          "bronze": 86392,
+          "silver_brasil": 86392,
+          "gold_uf_somado": 86392
+        },
+        "src": {
+          "bronze": 4656,
+          "silver_brasil": 4656,
+          "gold_uf_somado": 4656
+        },
+        "tetn": {
+          "bronze": 167,
+          "silver_brasil": 167,
+          "gold_uf_somado": 167
+        },
+        "toxc": {
+          "bronze": 31294,
+          "silver_brasil": 31294,
+          "gold_uf_somado": 31294
+        }
+      },
+      "divergencias_linha_total_bronze": [],
+      "divergencias_bronze_vs_silver": [],
+      "divergencias_municipios_vs_uf": [],
+      "divergencias_uf_vs_brasil": []
+    },
+    "V3_reproducao_cruzada": {
+      "status": "ignorado",
+      "motivo": "reproducao cruzada ignorada no escopo automatizado atual"
+    },
+    "V4_chave_valida_ibge": {
+      "status": "aprovado",
+      "municipios_referencia_ibge": 5571,
+      "municipios_unicos_nos_dados": 4946,
+      "municipios_validos": 4946,
+      "pct_municipios_validos": 100.0,
+      "pct_linhas_silver_validas": 100.0,
+      "pct_linhas_gold_validas": 100.0,
+      "excecoes_municipios_inexistentes": [],
+      "excecoes_conflito_uf": []
+    },
+    "V5_cobertura": {
+      "status": "informado",
+      "arquivo_cobertura_csv": "data/gold/cobertura_v5_por_tema.csv",
+      "por_tema": [
+        {
+          "tema": "hepa",
+          "competencias_janela": 163,
+          "competencias_com_valor": 137,
+          "competencias_sem_valor": 26,
+          "pct_competencias_com_valor": 84.05,
+          "municipios_referencia": 5571,
+          "municipios_com_valor": 440,
+          "municipios_sem_valor": 5131,
+          "pct_municipios_com_valor": 7.9,
+          "celulas_mun_comp_possiveis": 908073,
+          "celulas_mun_comp_com_valor": 977,
+          "celulas_mun_comp_sem_valor": 907096,
+          "pct_celulas_com_valor": 0.1076,
+          "pct_celulas_sem_valor": 99.8924,
+          "primeira_competencia_com_valor": "2014-09",
+          "ultima_competencia_com_valor": "2026-10",
+          "competencias_sem_valor_amostra": [
+            "2013-04",
+            "2013-05",
+            "2013-06",
+            "2013-07",
+            "2013-08",
+            "2013-09",
+            "2013-10",
+            "2013-11",
+            "2013-12",
+            "2014-01",
+            "2014-02",
+            "2014-03",
+            "2014-04",
+            "2014-05",
+            "2014-06"
+          ]
+        },
+        {
+          "tema": "sifc",
+          "competencias_janela": 163,
+          "competencias_com_valor": 153,
+          "competencias_sem_valor": 10,
+          "pct_competencias_com_valor": 93.87,
+          "municipios_referencia": 5571,
+          "municipios_com_valor": 4234,
+          "municipios_sem_valor": 1337,
+          "pct_municipios_com_valor": 76.0,
+          "celulas_mun_comp_possiveis": 908073,
+          "celulas_mun_comp_com_valor": 40993,
+          "celulas_mun_comp_sem_valor": 867080,
+          "pct_celulas_com_valor": 4.5143,
+          "pct_celulas_sem_valor": 95.4857,
+          "primeira_competencia_com_valor": "2013-11",
+          "ultima_competencia_com_valor": "2026-10",
+          "competencias_sem_valor_amostra": [
+            "2013-04",
+            "2013-05",
+            "2013-06",
+            "2013-07",
+            "2013-08",
+            "2013-09",
+            "2013-10",
+            "2013-12",
+            "2014-01",
+            "2014-03"
+          ]
+        },
+        {
+          "tema": "sifg",
+          "competencias_janela": 163,
+          "competencias_com_valor": 150,
+          "competencias_sem_valor": 13,
+          "pct_competencias_com_valor": 92.02,
+          "municipios_referencia": 5571,
+          "municipios_com_valor": 3625,
+          "municipios_sem_valor": 1946,
+          "pct_municipios_com_valor": 65.07,
+          "celulas_mun_comp_possiveis": 908073,
+          "celulas_mun_comp_com_valor": 32654,
+          "celulas_mun_comp_sem_valor": 875419,
+          "pct_celulas_com_valor": 3.596,
+          "pct_celulas_sem_valor": 96.404,
+          "primeira_competencia_com_valor": "2014-05",
+          "ultima_competencia_com_valor": "2026-10",
+          "competencias_sem_valor_amostra": [
+            "2013-04",
+            "2013-05",
+            "2013-06",
+            "2013-07",
+            "2013-08",
+            "2013-09",
+            "2013-10",
+            "2013-11",
+            "2013-12",
+            "2014-01",
+            "2014-02",
+            "2014-03",
+            "2014-04"
+          ]
+        },
+        {
+          "tema": "src",
+          "competencias_janela": 163,
+          "competencias_com_valor": 146,
+          "competencias_sem_valor": 17,
+          "pct_competencias_com_valor": 89.57,
+          "municipios_referencia": 5571,
+          "municipios_com_valor": 886,
+          "municipios_sem_valor": 4685,
+          "pct_municipios_com_valor": 15.9,
+          "celulas_mun_comp_possiveis": 908073,
+          "celulas_mun_comp_com_valor": 3512,
+          "celulas_mun_comp_sem_valor": 904561,
+          "pct_celulas_com_valor": 0.3868,
+          "pct_celulas_sem_valor": 99.6132,
+          "primeira_competencia_com_valor": "2014-01",
+          "ultima_competencia_com_valor": "2026-10",
+          "competencias_sem_valor_amostra": [
+            "2013-04",
+            "2013-05",
+            "2013-06",
+            "2013-07",
+            "2013-08",
+            "2013-09",
+            "2013-10",
+            "2013-11",
+            "2013-12",
+            "2014-02",
+            "2014-03",
+            "2014-04",
+            "2014-05",
+            "2014-06",
+            "2014-11"
+          ]
+        },
+        {
+          "tema": "tetn",
+          "competencias_janela": 163,
+          "competencias_com_valor": 84,
+          "competencias_sem_valor": 79,
+          "pct_competencias_com_valor": 51.53,
+          "municipios_referencia": 5571,
+          "municipios_com_valor": 89,
+          "municipios_sem_valor": 5482,
+          "pct_municipios_com_valor": 1.6,
+          "celulas_mun_comp_possiveis": 908073,
+          "celulas_mun_comp_com_valor": 132,
+          "celulas_mun_comp_sem_valor": 907941,
+          "pct_celulas_com_valor": 0.0145,
+          "pct_celulas_sem_valor": 99.9855,
+          "primeira_competencia_com_valor": "2014-06",
+          "ultima_competencia_com_valor": "2026-09",
+          "competencias_sem_valor_amostra": [
+            "2013-04",
+            "2013-05",
+            "2013-06",
+            "2013-07",
+            "2013-08",
+            "2013-09",
+            "2013-10",
+            "2013-11",
+            "2013-12",
+            "2014-01",
+            "2014-02",
+            "2014-03",
+            "2014-04",
+            "2014-05",
+            "2014-07"
+          ]
+        },
+        {
+          "tema": "toxc",
+          "competencias_janela": 163,
+          "competencias_com_valor": 148,
+          "competencias_sem_valor": 15,
+          "pct_competencias_com_valor": 90.8,
+          "municipios_referencia": 5571,
+          "municipios_com_valor": 3130,
+          "municipios_sem_valor": 2441,
+          "pct_municipios_com_valor": 56.18,
+          "celulas_mun_comp_possiveis": 908073,
+          "celulas_mun_comp_com_valor": 19453,
+          "celulas_mun_comp_sem_valor": 888620,
+          "pct_celulas_com_valor": 2.1422,
+          "pct_celulas_sem_valor": 97.8578,
+          "primeira_competencia_com_valor": "2014-02",
+          "ultima_competencia_com_valor": "2026-10",
+          "competencias_sem_valor_amostra": [
+            "2013-04",
+            "2013-05",
+            "2013-06",
+            "2013-07",
+            "2013-08",
+            "2013-09",
+            "2013-10",
+            "2013-11",
+            "2013-12",
+            "2014-01",
+            "2014-03",
+            "2014-04",
+            "2014-05",
+            "2014-06",
+            "2014-10"
+          ]
+        }
+      ]
+    },
+    "V6_comparacao_base_externa": {
+      "status": "nao_executado",
+      "motivo": "flag opcional --base-externa nao informada"
+    }
+  }
+}

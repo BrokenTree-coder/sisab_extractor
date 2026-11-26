@@ -1,0 +1,108 @@
+{
+  "etapa": "E2_padronizar_silver",
+  "gerado_em_utc": "2026-11-26T17:48:55.590740+00:00",
+  "status": "aprovado",
+  "parametros": {
+    "manter_zeros": false,
+    "saida_csv": "data/silver/silver_sisab_valor.csv",
+    "saida_parquet": null
+  },
+  "totais": {
+    "arquivos_processados": 818,
+    "linhas_bronze_lidas": 97721,
+    "linhas_silver_geradas": 110331,
+    "zeros_ignorados": 356327,
+    "valores_invalidos": 0,
+    "erros": 0
+  },
+  "temas": [
+    {
+      "tema": "hepa",
+      "id_consulta": "J0002",
+      "arquivos_processados": 137,
+      "linhas_bronze": 977,
+      "linhas_silver": 977,
+      "soma_valor": 1295,
+      "municipios_unicos": 440,
+      "ufs_unicas": 27,
+      "medidas": [
+        "O984"
+      ]
+    },
+    {
+      "tema": "sifc",
+      "id_consulta": "J0006",
+      "arquivos_processados": 153,
+      "linhas_bronze": 40993,
+      "linhas_silver": 53603,
+      "soma_valor": 117815,
+      "municipios_unicos": 4234,
+      "ufs_unicas": 27,
+      "medidas": [
+        "A50",
+        "A500",
+        "A501",
+        "A502",
+        "A503",
+        "A504",
+        "A505",
+        "A506",
+        "A507",
+        "A509"
+      ]
+    },
+    {
+      "tema": "sifg",
+      "id_consulta": "J0001",
+      "arquivos_processados": 150,
+      "linhas_bronze": 32654,
+      "linhas_silver": 32654,
+      "soma_valor": 86392,
+      "municipios_unicos": 3625,
+      "ufs_unicas": 27,
+      "medidas": [
+        "O981"
+      ]
+    },
+    {
+      "tema": "src",
+      "id_consulta": "J0003",
+      "arquivos_processados": 146,
+      "linhas_bronze": 3512,
+      "linhas_silver": 3512,
+      "soma_valor": 4656,
+      "municipios_unicos": 886,
+      "ufs_unicas": 27,
+      "medidas": [
+        "P350"
+      ]
+    },
+    {
+      "tema": "tetn",
+      "id_consulta": "J0004",
+      "arquivos_processados": 84,
+      "linhas_bronze": 132,
+      "linhas_silver": 132,
+      "soma_valor": 167,
+      "municipios_unicos": 89,
+      "ufs_unicas": 22,
+      "medidas": [
+        "A33"
+      ]
+    },
+    {
+      "tema": "toxc",
+      "id_consulta": "J0005",
+      "arquivos_processados": 148,
+      "linhas_bronze": 19453,
+      "linhas_silver": 19453,
+      "soma_valor": 31294,
+      "municipios_unicos": 3130,
+      "ufs_unicas": 27,
+      "medidas": [
+        "P371"
+      ]
+    }
+  ],
+  "erros": []
+}

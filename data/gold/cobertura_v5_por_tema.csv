@@ -1,0 +1,7 @@
+tema,competencias_janela,competencias_com_valor,competencias_sem_valor,pct_competencias_com_valor,municipios_referencia,municipios_com_valor,municipios_sem_valor,pct_municipios_com_valor,celulas_mun_comp_possiveis,celulas_mun_comp_com_valor,celulas_mun_comp_sem_valor,pct_celulas_com_valor,pct_celulas_sem_valor,primeira_competencia_com_valor,ultima_competencia_com_valor
+hepa,163,137,26,84.05,5571,440,5131,7.9,908073,977,907096,0.1076,99.8924,2014-09,2026-10
+sifc,163,153,10,93.87,5571,4234,1337,76.0,908073,40993,867080,4.5143,95.4857,2013-11,2026-10
+sifg,163,150,13,92.02,5571,3625,1946,65.07,908073,32654,875419,3.596,96.404,2014-05,2026-10
+src,163,146,17,89.57,5571,886,4685,15.9,908073,3512,904561,0.3868,99.6132,2014-01,2026-10
+tetn,163,84,79,51.53,5571,89,5482,1.6,908073,132,907941,0.0145,99.9855,2014-06,2026-09
+toxc,163,148,15,90.8,5571,3130,2441,56.18,908073,19453,888620,2.1422,97.8578,2014-02,2026-10

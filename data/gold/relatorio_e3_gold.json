@@ -1,0 +1,103 @@
+{
+  "etapa": "E3_agregar_gold",
+  "gerado_em_utc": "2026-11-26T17:48:56.085316+00:00",
+  "status": "aprovado",
+  "entrada": {
+    "silver_csv": "data/silver/silver_sisab_valor.csv",
+    "linhas_silver_lidas": 110331
+  },
+  "saidas": {
+    "gold_municipio_ano": {
+      "caminho": "data/gold/gold_sisab_municipio_ano.csv",
+      "parquet": null,
+      "n_linhas": 24565,
+      "colunas": [
+        "mun",
+        "uf",
+        "ano",
+        "hepa",
+        "sifc",
+        "sifg",
+        "src",
+        "tetn",
+        "toxc"
+      ],
+      "sha256": "7245db0ab096c98b7fa126e09449b8d3f09b9dee09d0cb76912988ef3c32a5c4"
+    },
+    "gold_uf_ano": {
+      "caminho": "data/gold/gold_sisab_uf_ano.csv",
+      "parquet": null,
+      "n_linhas": 344,
+      "colunas": [
+        "uf",
+        "ano",
+        "hepa",
+        "sifc",
+        "sifg",
+        "src",
+        "tetn",
+        "toxc"
+      ],
+      "sha256": "8efc47e15a3ecb5841077269d1972af68638dd1621fa1ff68319821a96a3c05a"
+    }
+  },
+  "cobertura": {
+    "ano_min": 2013,
+    "ano_max": 2026,
+    "anos_unicos": 14,
+    "municipios_unicos": 4946,
+    "ufs_unicas": 27
+  },
+  "indicadores": [
+    {
+      "tema": "hepa",
+      "coluna_gold": "hepa",
+      "soma_silver": 1295,
+      "soma_gold_municipio_ano": 1295,
+      "soma_gold_uf_ano": 1295,
+      "conciliado": true
+    },
+    {
+      "tema": "sifc",
+      "coluna_gold": "sifc",
+      "soma_silver": 117815,
+      "soma_gold_municipio_ano": 117815,
+      "soma_gold_uf_ano": 117815,
+      "conciliado": true
+    },
+    {
+      "tema": "sifg",
+      "coluna_gold": "sifg",
+      "soma_silver": 86392,
+      "soma_gold_municipio_ano": 86392,
+      "soma_gold_uf_ano": 86392,
+      "conciliado": true
+    },
+    {
+      "tema": "src",
+      "coluna_gold": "src",
+      "soma_silver": 4656,
+      "soma_gold_municipio_ano": 4656,
+      "soma_gold_uf_ano": 4656,
+      "conciliado": true
+    },
+    {
+      "tema": "tetn",
+      "coluna_gold": "tetn",
+      "soma_silver": 167,
+      "soma_gold_municipio_ano": 167,
+      "soma_gold_uf_ano": 167,
+      "conciliado": true
+    },
+    {
+      "tema": "toxc",
+      "coluna_gold": "toxc",
+      "soma_silver": 31294,
+      "soma_gold_municipio_ano": 31294,
+      "soma_gold_uf_ano": 31294,
+      "conciliado": true
+    }
+  ],
+  "avisos": [],
+  "erros": []
+}

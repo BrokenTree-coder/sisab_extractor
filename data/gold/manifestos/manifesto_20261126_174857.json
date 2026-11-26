@@ -1,0 +1,854 @@
+{
+  "gerado_em_utc": "2026-11-26T17:48:57+00:00",
+  "versao_pipeline": "sisab-1.0.0",
+  "commit_git": "2c26747",
+  "execucao": {
+    "modo": "rodar_etl_sisab",
+    "status_geral": "aprovado",
+    "etapas_consolidacao": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "etapas_solicitadas": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ]
+  },
+  "parametros": {
+    "VERSAO_PIPELINE": "sisab-1.0.0",
+    "SISTEMA_FONTE": "sisab",
+    "BRONZE_DIR": "data/bronze",
+    "GOLD_DIR": "data/gold",
+    "REGISTRO_PATH": "registro/registro_bronze.csv",
+    "MUNICIPIOS_REF_PATH": "referencias/municipios_ibge.csv",
+    "SILVER_CSV_PATH": "data/silver/silver_sisab_valor.csv",
+    "GOLD_MUN_CSV_PATH": "data/gold/gold_sisab_municipio_ano.csv",
+    "GOLD_UF_CSV_PATH": "data/gold/gold_sisab_uf_ano.csv",
+    "MANTER_ZEROS": false,
+    "PREFIXO_INDICADOR": "",
+    "GERAR_PARQUET": false,
+    "BASE_EXTERNA_V6": null
+  },
+  "versoes": {
+    "python": "3.12.3",
+    "sistema": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.1",
+    "scipy": "1.18.1",
+    "splink": null,
+    "duckdb": null,
+    "pysus": null,
+    "playwright": "1.65.2"
+  },
+  "arquivos_de_entrada": [
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2014",
+      "arquivos": 3,
+      "bytes": 1386,
+      "modificado_de": "2026-11-25T14:57:47+00:00",
+      "modificado_ate": "2026-11-25T14:59:19+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2015",
+      "arquivos": 7,
+      "bytes": 3356,
+      "modificado_de": "2026-11-25T15:05:23+00:00",
+      "modificado_ate": "2026-11-25T15:07:45+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2016",
+      "arquivos": 10,
+      "bytes": 5209,
+      "modificado_de": "2026-11-25T15:09:09+00:00",
+      "modificado_ate": "2026-11-25T15:11:23+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2017",
+      "arquivos": 12,
+      "bytes": 6162,
+      "modificado_de": "2026-11-25T15:11:30+00:00",
+      "modificado_ate": "2026-11-25T15:12:53+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2018",
+      "arquivos": 11,
+      "bytes": 6034,
+      "modificado_de": "2026-11-25T15:13:00+00:00",
+      "modificado_ate": "2026-11-25T15:15:26+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2019",
+      "arquivos": 12,
+      "bytes": 6999,
+      "modificado_de": "2026-11-25T15:15:35+00:00",
+      "modificado_ate": "2026-11-25T15:17:10+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2020",
+      "arquivos": 12,
+      "bytes": 7609,
+      "modificado_de": "2026-11-25T15:17:21+00:00",
+      "modificado_ate": "2026-11-25T15:18:50+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2021",
+      "arquivos": 12,
+      "bytes": 7815,
+      "modificado_de": "2026-11-25T15:19:01+00:00",
+      "modificado_ate": "2026-11-25T15:20:31+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2022",
+      "arquivos": 12,
+      "bytes": 8116,
+      "modificado_de": "2026-11-25T15:20:42+00:00",
+      "modificado_ate": "2026-11-25T15:22:33+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2023",
+      "arquivos": 12,
+      "bytes": 8018,
+      "modificado_de": "2026-11-25T15:22:41+00:00",
+      "modificado_ate": "2026-11-25T15:24:21+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2024",
+      "arquivos": 12,
+      "bytes": 7357,
+      "modificado_de": "2026-11-25T15:24:31+00:00",
+      "modificado_ate": "2026-11-25T15:26:10+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2025",
+      "arquivos": 12,
+      "bytes": 7825,
+      "modificado_de": "2026-11-25T15:26:17+00:00",
+      "modificado_ate": "2026-11-25T15:28:12+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "hepa",
+      "ano": "2026",
+      "arquivos": 10,
+      "bytes": 7362,
+      "modificado_de": "2026-11-25T15:28:20+00:00",
+      "modificado_ate": "2026-11-25T15:29:54+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2013",
+      "arquivos": 1,
+      "bytes": 1201,
+      "modificado_de": "2026-11-25T21:15:20+00:00",
+      "modificado_ate": "2026-11-25T21:15:20+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2014",
+      "arquivos": 10,
+      "bytes": 20043,
+      "modificado_de": "2026-11-25T21:16:04+00:00",
+      "modificado_ate": "2026-11-25T21:17:32+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2015",
+      "arquivos": 12,
+      "bytes": 40773,
+      "modificado_de": "2026-11-25T21:17:43+00:00",
+      "modificado_ate": "2026-11-25T21:19:21+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2016",
+      "arquivos": 12,
+      "bytes": 75513,
+      "modificado_de": "2026-11-25T21:19:29+00:00",
+      "modificado_ate": "2026-11-25T21:20:59+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2017",
+      "arquivos": 12,
+      "bytes": 99984,
+      "modificado_de": "2026-11-25T21:21:07+00:00",
+      "modificado_ate": "2026-11-25T21:22:35+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2018",
+      "arquivos": 12,
+      "bytes": 134647,
+      "modificado_de": "2026-11-25T21:22:45+00:00",
+      "modificado_ate": "2026-11-25T21:24:05+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2019",
+      "arquivos": 12,
+      "bytes": 145242,
+      "modificado_de": "2026-11-25T21:24:14+00:00",
+      "modificado_ate": "2026-11-25T21:25:36+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2020",
+      "arquivos": 12,
+      "bytes": 143969,
+      "modificado_de": "2026-11-25T21:25:42+00:00",
+      "modificado_ate": "2026-11-25T21:27:12+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2021",
+      "arquivos": 12,
+      "bytes": 175933,
+      "modificado_de": "2026-11-25T21:27:19+00:00",
+      "modificado_ate": "2026-11-25T21:28:56+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2022",
+      "arquivos": 12,
+      "bytes": 198628,
+      "modificado_de": "2026-11-25T21:29:05+00:00",
+      "modificado_ate": "2026-11-25T21:30:43+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2023",
+      "arquivos": 12,
+      "bytes": 214250,
+      "modificado_de": "2026-11-25T21:30:52+00:00",
+      "modificado_ate": "2026-11-25T21:32:40+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2024",
+      "arquivos": 12,
+      "bytes": 223246,
+      "modificado_de": "2026-11-25T21:32:52+00:00",
+      "modificado_ate": "2026-11-25T21:34:32+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2025",
+      "arquivos": 12,
+      "bytes": 234455,
+      "modificado_de": "2026-11-25T21:34:40+00:00",
+      "modificado_ate": "2026-11-25T21:36:18+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifc",
+      "ano": "2026",
+      "arquivos": 10,
+      "bytes": 213284,
+      "modificado_de": "2026-11-25T21:36:26+00:00",
+      "modificado_ate": "2026-11-25T21:37:43+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2014",
+      "arquivos": 8,
+      "bytes": 4261,
+      "modificado_de": "2026-11-24T18:42:59+00:00",
+      "modificado_ate": "2026-11-24T18:43:48+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2015",
+      "arquivos": 12,
+      "bytes": 12226,
+      "modificado_de": "2026-11-24T18:43:55+00:00",
+      "modificado_ate": "2026-11-24T18:45:58+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2016",
+      "arquivos": 12,
+      "bytes": 19988,
+      "modificado_de": "2026-11-24T18:46:03+00:00",
+      "modificado_ate": "2026-11-24T18:47:30+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2017",
+      "arquivos": 12,
+      "bytes": 33385,
+      "modificado_de": "2026-11-24T18:47:40+00:00",
+      "modificado_ate": "2026-11-24T18:50:00+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2018",
+      "arquivos": 12,
+      "bytes": 51945,
+      "modificado_de": "2026-11-24T18:50:08+00:00",
+      "modificado_ate": "2026-11-24T18:51:40+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2019",
+      "arquivos": 12,
+      "bytes": 55262,
+      "modificado_de": "2026-11-24T18:51:48+00:00",
+      "modificado_ate": "2026-11-24T18:53:19+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2020",
+      "arquivos": 12,
+      "bytes": 64085,
+      "modificado_de": "2026-11-24T18:53:26+00:00",
+      "modificado_ate": "2026-11-24T18:54:55+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2021",
+      "arquivos": 12,
+      "bytes": 80809,
+      "modificado_de": "2026-11-24T18:55:40+00:00",
+      "modificado_ate": "2026-11-24T18:57:21+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2022",
+      "arquivos": 12,
+      "bytes": 97972,
+      "modificado_de": "2026-11-24T18:57:30+00:00",
+      "modificado_ate": "2026-11-24T18:59:09+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2023",
+      "arquivos": 12,
+      "bytes": 105839,
+      "modificado_de": "2026-11-24T18:59:17+00:00",
+      "modificado_ate": "2026-11-24T19:00:54+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2024",
+      "arquivos": 12,
+      "bytes": 90142,
+      "modificado_de": "2026-11-24T19:01:05+00:00",
+      "modificado_ate": "2026-11-24T19:03:46+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2025",
+      "arquivos": 12,
+      "bytes": 119752,
+      "modificado_de": "2026-11-24T19:03:53+00:00",
+      "modificado_ate": "2026-11-24T19:05:30+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "sifg",
+      "ano": "2026",
+      "arquivos": 10,
+      "bytes": 128242,
+      "modificado_de": "2026-11-24T19:07:37+00:00",
+      "modificado_ate": "2026-11-24T19:08:50+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2014",
+      "arquivos": 5,
+      "bytes": 2215,
+      "modificado_de": "2026-11-25T16:50:21+00:00",
+      "modificado_ate": "2026-11-25T16:54:26+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2015",
+      "arquivos": 11,
+      "bytes": 5361,
+      "modificado_de": "2026-11-25T16:56:48+00:00",
+      "modificado_ate": "2026-11-25T16:58:21+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2016",
+      "arquivos": 12,
+      "bytes": 7412,
+      "modificado_de": "2026-11-25T16:58:30+00:00",
+      "modificado_ate": "2026-11-25T16:59:50+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2017",
+      "arquivos": 12,
+      "bytes": 8935,
+      "modificado_de": "2026-11-25T16:59:56+00:00",
+      "modificado_ate": "2026-11-25T17:01:12+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2018",
+      "arquivos": 12,
+      "bytes": 9616,
+      "modificado_de": "2026-11-25T17:01:16+00:00",
+      "modificado_ate": "2026-11-25T17:02:56+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2019",
+      "arquivos": 12,
+      "bytes": 10107,
+      "modificado_de": "2026-11-25T17:03:03+00:00",
+      "modificado_ate": "2026-11-25T17:06:05+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2020",
+      "arquivos": 12,
+      "bytes": 10356,
+      "modificado_de": "2026-11-25T17:06:12+00:00",
+      "modificado_ate": "2026-11-25T17:07:33+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2021",
+      "arquivos": 12,
+      "bytes": 12002,
+      "modificado_de": "2026-11-25T17:07:45+00:00",
+      "modificado_ate": "2026-11-25T17:09:16+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2022",
+      "arquivos": 12,
+      "bytes": 12991,
+      "modificado_de": "2026-11-25T17:09:25+00:00",
+      "modificado_ate": "2026-11-25T17:10:58+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2023",
+      "arquivos": 12,
+      "bytes": 15588,
+      "modificado_de": "2026-11-25T17:11:07+00:00",
+      "modificado_ate": "2026-11-25T17:13:14+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2024",
+      "arquivos": 12,
+      "bytes": 15339,
+      "modificado_de": "2026-11-25T17:13:21+00:00",
+      "modificado_ate": "2026-11-25T17:14:47+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2025",
+      "arquivos": 12,
+      "bytes": 18346,
+      "modificado_de": "2026-11-25T17:14:55+00:00",
+      "modificado_ate": "2026-11-25T17:16:26+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "src",
+      "ano": "2026",
+      "arquivos": 10,
+      "bytes": 17146,
+      "modificado_de": "2026-11-25T17:16:35+00:00",
+      "modificado_ate": "2026-11-25T17:18:11+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2014",
+      "arquivos": 2,
+      "bytes": 868,
+      "modificado_de": "2026-11-25T17:51:37+00:00",
+      "modificado_ate": "2026-11-25T17:57:43+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2015",
+      "arquivos": 3,
+      "bytes": 1336,
+      "modificado_de": "2026-11-25T18:00:44+00:00",
+      "modificado_ate": "2026-11-25T18:06:35+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2016",
+      "arquivos": 7,
+      "bytes": 3277,
+      "modificado_de": "2026-11-25T18:08:52+00:00",
+      "modificado_ate": "2026-11-25T18:11:13+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2017",
+      "arquivos": 11,
+      "bytes": 5072,
+      "modificado_de": "2026-11-25T18:13:05+00:00",
+      "modificado_ate": "2026-11-25T18:15:02+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2018",
+      "arquivos": 7,
+      "bytes": 3190,
+      "modificado_de": "2026-11-25T18:15:57+00:00",
+      "modificado_ate": "2026-11-25T18:19:09+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2019",
+      "arquivos": 8,
+      "bytes": 3569,
+      "modificado_de": "2026-11-25T18:19:17+00:00",
+      "modificado_ate": "2026-11-25T18:22:50+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2020",
+      "arquivos": 6,
+      "bytes": 2695,
+      "modificado_de": "2026-11-25T18:24:44+00:00",
+      "modificado_ate": "2026-11-25T18:27:16+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2021",
+      "arquivos": 9,
+      "bytes": 4015,
+      "modificado_de": "2026-11-25T18:30:40+00:00",
+      "modificado_ate": "2026-11-25T18:34:19+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2022",
+      "arquivos": 7,
+      "bytes": 3045,
+      "modificado_de": "2026-11-25T18:34:25+00:00",
+      "modificado_ate": "2026-11-25T18:38:27+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2023",
+      "arquivos": 7,
+      "bytes": 3070,
+      "modificado_de": "2026-11-25T18:39:28+00:00",
+      "modificado_ate": "2026-11-25T18:45:02+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2024",
+      "arquivos": 7,
+      "bytes": 3083,
+      "modificado_de": "2026-11-25T18:45:53+00:00",
+      "modificado_ate": "2026-11-25T18:49:37+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2025",
+      "arquivos": 6,
+      "bytes": 2606,
+      "modificado_de": "2026-11-25T18:49:47+00:00",
+      "modificado_ate": "2026-11-25T18:54:21+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "tetn",
+      "ano": "2026",
+      "arquivos": 4,
+      "bytes": 1756,
+      "modificado_de": "2026-11-25T18:55:03+00:00",
+      "modificado_ate": "2026-11-25T18:58:13+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2014",
+      "arquivos": 6,
+      "bytes": 2775,
+      "modificado_de": "2026-11-25T19:09:15+00:00",
+      "modificado_ate": "2026-11-25T19:12:16+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2015",
+      "arquivos": 12,
+      "bytes": 7944,
+      "modificado_de": "2026-11-25T19:12:22+00:00",
+      "modificado_ate": "2026-11-25T19:13:53+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2016",
+      "arquivos": 12,
+      "bytes": 13429,
+      "modificado_de": "2026-11-25T19:13:58+00:00",
+      "modificado_ate": "2026-11-25T19:15:18+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2017",
+      "arquivos": 12,
+      "bytes": 20558,
+      "modificado_de": "2026-11-25T19:15:24+00:00",
+      "modificado_ate": "2026-11-25T19:16:40+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2018",
+      "arquivos": 12,
+      "bytes": 27191,
+      "modificado_de": "2026-11-25T19:16:48+00:00",
+      "modificado_ate": "2026-11-25T19:18:41+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2019",
+      "arquivos": 12,
+      "bytes": 32950,
+      "modificado_de": "2026-11-25T19:18:46+00:00",
+      "modificado_ate": "2026-11-25T19:20:03+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2020",
+      "arquivos": 12,
+      "bytes": 37452,
+      "modificado_de": "2026-11-25T19:20:10+00:00",
+      "modificado_ate": "2026-11-25T19:21:23+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2021",
+      "arquivos": 12,
+      "bytes": 43011,
+      "modificado_de": "2026-11-25T19:21:32+00:00",
+      "modificado_ate": "2026-11-25T19:23:22+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2022",
+      "arquivos": 12,
+      "bytes": 49960,
+      "modificado_de": "2026-11-25T19:23:31+00:00",
+      "modificado_ate": "2026-11-25T19:25:08+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2023",
+      "arquivos": 12,
+      "bytes": 69393,
+      "modificado_de": "2026-11-25T19:25:18+00:00",
+      "modificado_ate": "2026-11-25T19:27:00+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2024",
+      "arquivos": 12,
+      "bytes": 74789,
+      "modificado_de": "2026-11-25T19:27:08+00:00",
+      "modificado_ate": "2026-11-25T19:29:11+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2025",
+      "arquivos": 12,
+      "bytes": 79452,
+      "modificado_de": "2026-11-25T19:29:18+00:00",
+      "modificado_ate": "2026-11-25T19:30:47+00:00"
+    },
+    {
+      "sistema": "sisab",
+      "tema": "toxc",
+      "ano": "2026",
+      "arquivos": 10,
+      "bytes": 79185,
+      "modificado_de": "2026-11-25T19:30:53+00:00",
+      "modificado_ate": "2026-11-25T19:32:03+00:00"
+    }
+  ],
+  "resultados": [
+    {
+      "etapa": "E1_conferir_bronze",
+      "status": "aprovado",
+      "gerado_em_utc": "2026-11-26T17:48:54.424852+00:00",
+      "lotes_registrados": 6,
+      "arquivos_bronze": 818,
+      "linhas_dados_somadas": 97721
+    },
+    {
+      "etapa": "E2_padronizar_silver",
+      "status": "aprovado",
+      "gerado_em_utc": "2026-11-26T17:48:55.590740+00:00",
+      "arquivo": "data/silver/silver_sisab_valor.csv",
+      "sha256": "d2eaf2d79c151cf1a45884bed14c4c8d7e4e61f139c997d6ab8313126da27e0e",
+      "linhas_silver_geradas": 110331,
+      "valores_invalidos": 0
+    },
+    {
+      "etapa": "E3_agregar_gold",
+      "status": "aprovado",
+      "gerado_em_utc": "2026-11-26T17:48:56.085316+00:00",
+      "gold_municipio_ano": {
+        "caminho": "data/gold/gold_sisab_municipio_ano.csv",
+        "parquet": null,
+        "n_linhas": 24565,
+        "colunas": [
+          "mun",
+          "uf",
+          "ano",
+          "hepa",
+          "sifc",
+          "sifg",
+          "src",
+          "tetn",
+          "toxc"
+        ],
+        "sha256": "7245db0ab096c98b7fa126e09449b8d3f09b9dee09d0cb76912988ef3c32a5c4"
+      },
+      "gold_uf_ano": {
+        "caminho": "data/gold/gold_sisab_uf_ano.csv",
+        "parquet": null,
+        "n_linhas": 344,
+        "colunas": [
+          "uf",
+          "ano",
+          "hepa",
+          "sifc",
+          "sifg",
+          "src",
+          "tetn",
+          "toxc"
+        ],
+        "sha256": "8efc47e15a3ecb5841077269d1972af68638dd1621fa1ff68319821a96a3c05a"
+      },
+      "cobertura": {
+        "ano_min": 2013,
+        "ano_max": 2026,
+        "anos_unicos": 14,
+        "municipios_unicos": 4946,
+        "ufs_unicas": 27
+      }
+    },
+    {
+      "etapa": "E4_validar",
+      "status": "aprovado",
+      "gerado_em_utc": "2026-11-26T17:48:57.188683+00:00",
+      "resumo_validacoes": {
+        "V1_registro_completo": "aprovado",
+        "V2_soma_territorial": "aprovado",
+        "V3_reproducao_cruzada": "ignorado",
+        "V4_chave_valida_ibge": "aprovado",
+        "V5_cobertura": "informado",
+        "V6_comparacao_base_externa": "nao_executado"
+      }
+    },
+    {
+      "etapa": "E5_relatar",
+      "status": "aprovado",
+      "mapa_cobertura_csv": "data/gold/mapa_cobertura_uf_ano.csv",
+      "mapa_cobertura_md": "data/gold/mapa_cobertura_sisab.md",
+      "n_linhas_mapa_csv": 2268,
+      "sha256_mapa_csv": "85bdb1a59303c39059e45d713be02e0cf61800f759f1d0697652ae6633bc8a8a",
+      "sha256_mapa_md": "90391642f88a9218b0618eeee0565b2f6f4423f66a9ee00dcca95cc6970199cf",
+      "artefatos_gold_verificados": {
+        "gold_municipio_ano_existe": true,
+        "gold_uf_ano_existe": true
+      }
+    }
+  ],
+  "falhas": []
+}
